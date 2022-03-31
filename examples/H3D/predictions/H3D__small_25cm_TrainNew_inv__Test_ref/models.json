@@ -1,0 +1,26 @@
+{
+    "model_name": [
+        "H3D__small_25cm_TrainNew_inv #0",
+        "H3D__small_25cm_TrainNew_inv #1",
+        "H3D__small_25cm_TrainNew_inv #2",
+        "H3D__small_25cm_TrainNew_inv #3",
+        "H3D__small_25cm_TrainNew_inv #4",
+        "H3D__small_25cm_TrainNew_inv #5",
+        "H3D__small_25cm_TrainNew_inv #6",
+        "H3D__small_25cm_TrainNew_inv #7",
+        "H3D__small_25cm_TrainNew_inv #8",
+        "H3D__small_25cm_TrainNew_inv #9"
+    ],
+    "epochs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

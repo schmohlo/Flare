@@ -1,0 +1,46 @@
+
+                        |         (0)         (1)         (2)         (3)         (4)         (5)         (6)         (7)         (8)         (9)        (10)  |   recall 
+    --------------------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------
+          Low Veg.  (0) |     985,573      68,021         276      48,194       6,477       2,090      48,594      35,760     114,919      11,982         199  |    74.55
+      Imp. Surface  (1) |      62,850     793,321       2,862      32,869      12,441       9,819       1,797       1,631      18,731      17,849         687  |    83.08
+           Vehicle  (2) |         499      27,963      54,164      53,005      11,019       7,869       5,186       4,370         722       2,938       2,387  |    31.84
+       Urban Furn.  (3) |       8,452      26,946      10,326     243,522      28,789      30,652      49,674      35,662       1,372      49,776      15,963  |    48.59
+              Roof  (4) |       2,889      28,068       3,244       5,152     984,990      15,278         799       6,505      13,077       1,266      23,952  |    90.76
+            Facade  (5) |       3,575      13,323       1,628      97,351      28,265     488,325       8,306       7,858         373      67,634      12,170  |    67.00
+             Shrub  (6) |      11,178         673       1,550      44,195       1,069       1,665     239,639      87,873         100      19,052       1,259  |    58.70
+              Tree  (7) |      20,293         110          83      13,670       2,754       1,706      90,872   3,967,692       2,748       9,827      28,408  |    95.88
+     Soil / Gravel  (8) |      49,074      29,080          34       4,536          18         380       1,676          23      72,934         132           3  |    46.19
+          Vertical  (9) |         145       3,919         147       5,649         226       1,171          55         159          23     136,420         137  |    92.14
+          Chimney  (10) |           0           0           0           0         215          26           7           9           0           0      12,464  |    97.98
+    --------------------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------
+              precision |       86.11       80.02       72.89       44.43       91.52       87.36       53.66       95.66       32.42       43.05       12.77  |   oval_acc =  82.88
+                     F1 |       79.91       81.52       44.32       46.42       91.14       75.84       56.07       95.77       38.10       58.68       22.59  |   mean(F1) =  62.76
+
+    Ground-Truth Data Statistics:
+        Number of elements in class Low Veg.        (0):  1,322,085
+        Number of elements in class Imp. Surface    (1):    954,857
+        Number of elements in class Vehicle         (2):    170,122
+        Number of elements in class Urban Furn.     (3):    501,134
+        Number of elements in class Roof            (4):  1,085,220
+        Number of elements in class Facade          (5):    728,808
+        Number of elements in class Shrub           (6):    408,253
+        Number of elements in class Tree            (7):  4,138,163
+        Number of elements in class Soil / Gravel   (8):    157,890
+        Number of elements in class Vertical        (9):    148,051
+        Number of elements in class Chimney        (10):     12,721
+        => total: 9627304
+
+    Ground-Truth Data Statistics (as "Prediction Classes"):
+        Number of elements in class Low Veg.        (0):  1,322,085
+        Number of elements in class Imp. Surface    (1):    954,857
+        Number of elements in class Vehicle         (2):    170,122
+        Number of elements in class Urban Furn.     (3):    501,134
+        Number of elements in class Roof            (4):  1,085,220
+        Number of elements in class Facade          (5):    728,808
+        Number of elements in class Shrub           (6):    408,253
+        Number of elements in class Tree            (7):  4,138,163
+        Number of elements in class Soil / Gravel   (8):    157,890
+        Number of elements in class Vertical        (9):    148,051
+        Number of elements in class Chimney        (10):     12,721
+        => total: 9627304
+

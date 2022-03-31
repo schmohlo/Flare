@@ -1,0 +1,32 @@
+{
+    "dir": "H3D_Mesh__Train_full__vs025__a0_30_60_90_120_150_180_210_240_270_300_330__32x32__o30_30",
+    "gt_field": "classification",
+    "class_mapping": {
+        "Low Veg.": "Low Veg.",
+        "Imp. Surface": "Imp. Surface",
+        "Vehicle": "Vehicle",
+        "Urban Furn.": "Urban Furn.",
+        "Roof": "Roof",
+        "Facade": "Facade",
+        "Shrub": "Shrub",
+        "Tree": "Tree",
+        "Soil / Gravel": "Soil / Gravel",
+        "Vertical": "Vertical",
+        "Chimney": "Chimney",
+        "Ignore": "Ignore"
+    },
+    "classes": {
+        "0": "Low Veg.",
+        "1": "Imp. Surface",
+        "2": "Vehicle",
+        "3": "Urban Furn.",
+        "4": "Roof",
+        "5": "Facade",
+        "6": "Shrub",
+        "7": "Tree",
+        "8": "Soil / Gravel",
+        "9": "Vertical",
+        "10": "Chimney",
+        "11": "Ignore"
+    }
+}

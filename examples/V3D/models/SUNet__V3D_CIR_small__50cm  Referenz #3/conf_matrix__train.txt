@@ -1,0 +1,40 @@
+
+                      |         (0)         (1)         (2)         (3)         (4)         (5)         (6)         (7)         (8)  |   recall 
+    ------------------|--------------------------------------------------------------------------------------------------------------|--------------------
+       Powerline  (0) |       7,027           8           0           0           0          15           9           8          12  |    99.27
+        Low veg.  (1) |       1,607   1,723,806     181,266       4,500      30,015       5,357      13,603      91,166       2,139  |    83.95
+    Imp. surface  (2) |         660      60,658   1,562,258       6,658       2,975       2,023       2,192       2,921         667  |    95.20
+             Car  (3) |          68         351       1,390      57,587         783          22         136         303          17  |    94.94
+     Fence/Hedge  (4) |          82       6,628         540         852     120,251         333       1,087      13,200         267  |    83.95
+            Roof  (5) |      15,831       1,133       5,425       1,794       1,312   1,430,661      37,731       2,366       1,267  |    95.54
+          Facade  (6) |       5,069       7,322       1,286       1,654         978      23,022     355,279      11,476         969  |    87.28
+           Shrub  (7) |       2,659      55,261       2,295       6,084      37,514       6,072      31,941     433,235      12,508  |    73.73
+            Tree  (8) |       9,883      20,282         879       3,273       7,836      13,259      20,706     169,979   1,626,469  |    86.86
+    ------------------|--------------------------------------------------------------------------------------------------------------|--------------------
+            precision |       16.39       91.91       89.00       69.89       59.63       96.62       76.79       59.79       98.91  |   oval_acc =  88.47
+                   F1 |       28.13       87.75       92.00       80.51       69.73       96.07       81.70       66.03       92.49  |   mean(F1) =  77.16
+
+    Ground-Truth Data Statistics:
+        Number of elements in class Powerline     (0):      7,079
+        Number of elements in class Low veg.      (1):  2,053,459
+        Number of elements in class Imp. surface  (2):  1,641,012
+        Number of elements in class Car           (3):     60,657
+        Number of elements in class Fence/Hedge   (4):    143,240
+        Number of elements in class Roof          (5):  1,497,520
+        Number of elements in class Facade        (6):    407,055
+        Number of elements in class Shrub         (7):    587,569
+        Number of elements in class Tree          (8):  1,872,566
+        => total: 8270157
+
+    Ground-Truth Data Statistics (as "Prediction Classes"):
+        Number of elements in class Powerline     (0):      7,079
+        Number of elements in class Low veg.      (1):  2,053,459
+        Number of elements in class Imp. surface  (2):  1,641,012
+        Number of elements in class Car           (3):     60,657
+        Number of elements in class Fence/Hedge   (4):    143,240
+        Number of elements in class Roof          (5):  1,497,520
+        Number of elements in class Facade        (6):    407,055
+        Number of elements in class Shrub         (7):    587,569
+        Number of elements in class Tree          (8):  1,872,566
+        => total: 8270157
+

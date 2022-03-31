@@ -1,0 +1,40 @@
+
+                      |       (0)       (1)       (2)       (3)       (4)       (5)       (6)       (7)       (8)  |   recall 
+    ------------------|--------------------------------------------------------------------------------------------|--------------------
+       Powerline  (0) |       990         0         7         0         0        12         9         0        31  |    94.38
+        Low veg.  (1) |        33   154,233     6,417        52     2,027       457     1,134     7,054       313  |    89.82
+    Imp. surface  (2) |        67    33,476   180,636       767       694        50       660     1,048        77  |    83.06
+             Car  (3) |         0        10        76     2,421        26         1       256       140         0  |    82.63
+     Fence/Hedge  (4) |        16       777       262        66     9,514        22       901     2,953        78  |    65.21
+            Roof  (5) |       923       850     1,609       286       680   137,062     7,701     1,439       614  |    90.67
+          Facade  (6) |        55       111         0         0         0       108     3,033       113        75  |    86.78
+           Shrub  (7) |       328     8,016       307     1,078     6,035       913     4,425    25,751     7,994  |    46.95
+            Tree  (8) |       252     2,074       220       402       553       601     2,914    10,284    86,538  |    83.34
+    ------------------|--------------------------------------------------------------------------------------------|--------------------
+            precision |     37.16     77.29     95.31     47.73     48.72     98.45     14.42     52.79     90.41  |   oval_acc =  83.23
+                   F1 |     53.33     83.08     88.76     60.51     55.77     94.40     24.73     49.70     86.73  |   mean(F1) =  66.33
+
+    Ground-Truth Data Statistics:
+        Number of elements in class Powerline     (0):    1,049
+        Number of elements in class Low veg.      (1):  171,720
+        Number of elements in class Imp. surface  (2):  217,475
+        Number of elements in class Car           (3):    2,930
+        Number of elements in class Fence/Hedge   (4):   14,589
+        Number of elements in class Roof          (5):  151,164
+        Number of elements in class Facade        (6):    3,495
+        Number of elements in class Shrub         (7):   54,847
+        Number of elements in class Tree          (8):  103,838
+        => total: 721107
+
+    Ground-Truth Data Statistics (as "Prediction Classes"):
+        Number of elements in class Powerline     (0):    1,049
+        Number of elements in class Low veg.      (1):  171,720
+        Number of elements in class Imp. surface  (2):  217,475
+        Number of elements in class Car           (3):    2,930
+        Number of elements in class Fence/Hedge   (4):   14,589
+        Number of elements in class Roof          (5):  151,164
+        Number of elements in class Facade        (6):    3,495
+        Number of elements in class Shrub         (7):   54,847
+        Number of elements in class Tree          (8):  103,838
+        => total: 721107
+

@@ -1,0 +1,57 @@
+{
+    "values": [
+        [
+            0.6814993619918823,
+            0.7287040948867798,
+            0.721289873123169,
+            0.7329257726669312,
+            0.7307775616645813,
+            0.7219089865684509,
+            0.5777974128723145,
+            0.6246658563613892,
+            0.6936262845993042,
+            0.6016412377357483
+        ],
+        [
+            0.6769925951957703,
+            0.723407506942749,
+            0.7169378995895386,
+            0.7284420132637024,
+            0.7248989939689636,
+            0.7163434028625488,
+            0.5756696462631226,
+            0.6224266886711121,
+            0.6877551674842834,
+            0.6019205451011658
+        ]
+    ],
+    "labels": [
+        "p",
+        "v"
+    ],
+    "model_names": [
+        "H3D_Mesh__small_25cm_Geom #0",
+        "H3D_Mesh__small_25cm_Geom #1",
+        "H3D_Mesh__small_25cm_Geom #2",
+        "H3D_Mesh__small_25cm_Geom #3",
+        "H3D_Mesh__small_25cm_Geom #4",
+        "H3D_Mesh__small_25cm_Geom #5",
+        "H3D_Mesh__small_25cm_Geom #6",
+        "H3D_Mesh__small_25cm_Geom #7",
+        "H3D_Mesh__small_25cm_Geom #8",
+        "H3D_Mesh__small_25cm_Geom #9"
+    ],
+    "epochs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "fpath": "./predictions/20210210_134151__H3D_Mesh__small_25cm_Geom/Test Accuracy"
+}

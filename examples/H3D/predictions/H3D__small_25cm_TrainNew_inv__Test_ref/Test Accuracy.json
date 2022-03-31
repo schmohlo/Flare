@@ -1,0 +1,57 @@
+{
+    "values": [
+        [
+            0.8364264965057373,
+            0.8597935438156128,
+            0.8748167753219604,
+            0.8667907118797302,
+            0.8403264284133911,
+            0.8286276459693909,
+            0.8700909614562988,
+            0.8395899534225464,
+            0.8636834621429443,
+            0.8374582529067993
+        ],
+        [
+            0.8457897305488586,
+            0.8573762774467468,
+            0.873548150062561,
+            0.8715442419052124,
+            0.8364140391349792,
+            0.8464802503585815,
+            0.8681797385215759,
+            0.845729410648346,
+            0.8584820628166199,
+            0.8454304337501526
+        ]
+    ],
+    "labels": [
+        "p",
+        "v"
+    ],
+    "model_names": [
+        "H3D__small_25cm_TrainNew_inv #0",
+        "H3D__small_25cm_TrainNew_inv #1",
+        "H3D__small_25cm_TrainNew_inv #2",
+        "H3D__small_25cm_TrainNew_inv #3",
+        "H3D__small_25cm_TrainNew_inv #4",
+        "H3D__small_25cm_TrainNew_inv #5",
+        "H3D__small_25cm_TrainNew_inv #6",
+        "H3D__small_25cm_TrainNew_inv #7",
+        "H3D__small_25cm_TrainNew_inv #8",
+        "H3D__small_25cm_TrainNew_inv #9"
+    ],
+    "epochs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "fpath": "./predictions/20210207_154337__H3D__small_25cm_TrainNew_inv__Test_ref/Test Accuracy"
+}

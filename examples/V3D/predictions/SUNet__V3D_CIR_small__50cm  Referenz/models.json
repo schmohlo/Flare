@@ -1,0 +1,26 @@
+{
+    "model_name": [
+        "SUNet__V3D_CIR_small__50cm  Referenz #1",
+        "SUNet__V3D_CIR_small__50cm  Referenz #2",
+        "SUNet__V3D_CIR_small__50cm  Referenz #3",
+        "SUNet__V3D_CIR_small__50cm  Referenz #4",
+        "SUNet__V3D_CIR_small__50cm  Referenz #5",
+        "SUNet__V3D_CIR_small__50cm  Referenz #6",
+        "SUNet__V3D_CIR_small__50cm  Referenz #7",
+        "SUNet__V3D_CIR_small__50cm  Referenz #8",
+        "SUNet__V3D_CIR_small__50cm  Referenz #9",
+        "SUNet__V3D_CIR_small__50cm  Referenz #10"
+    ],
+    "epochs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

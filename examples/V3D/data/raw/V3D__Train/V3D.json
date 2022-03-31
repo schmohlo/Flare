@@ -1,0 +1,13 @@
+{
+    "classes": {
+        "0": "Powerline", 
+        "1": "Low veg.",
+        "2": "Imp. surface",
+        "3": "Car",
+        "4": "Fence/Hedge",
+        "5": "Roof",
+        "6": "Facade",
+        "7": "Shrub",
+        "8": "Tree"
+    }
+}

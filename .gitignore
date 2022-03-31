@@ -1,0 +1,57 @@
+
+
+## Exclude files with certain file extensions:
+# Compiled python cache files:
+*.pyc
+# Compiled cpython files:
+*.c
+
+
+## Exclude direct child folders (for example because they contain lokal data):
+/examples/playground/*
+
+/examples/V3D/**/*.las
+/examples/V3D/**/*.pts
+/examples/V3D/**/*.pkl
+/examples/V3D/data/sampled/*
+/examples/V3D/data/voxelized/*
+
+/examples/H3D/**/*.las
+/examples/H3D/**/*.pts
+/examples/H3D/**/*.pkl
+/examples/H3D/data/sampled/*
+/examples/H3D/data/voxelized/*
+
+/examples/H3D_Mesh/**/*.las
+/examples/H3D_Mesh/**/*.pts
+/examples/H3D_Mesh/**/*.pkl
+/examples/H3D_Mesh/data/COGs_test.txt
+/examples/H3D_Mesh/data/sampled/*
+/examples/H3D_Mesh/data/voxelized/*
+
+
+
+
+## Exclude test output directories (content is rewriten very time unittest runs):
+/tests/test_average_precision/*
+/tests/test_conf_matrix_plot/*
+/tests/test_conf_matrix_print/*
+/tests/test_metricsHistory/*
+/tests/test_sampler_visually_TestTilingNoOverlapp/*
+/tests/test_sampler_visually_TestTilingWithOverlapp/*
+
+
+## Exclude all folders with the following patterns:
+# Pycharm:
+.idea
+# Python cache:
+__pycache__
+
+
+##
+/TODOs.md
+
+
+## Exceptions for internal Examples:
+#!/examples/models/Example*
+

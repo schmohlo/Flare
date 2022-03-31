@@ -1,0 +1,130 @@
+
+
+Training report:
+    date            : 20210211_060848
+    duration        : 0 days,  1h  4' 12''
+    epochs          : 22
+    last saved epoch: 12
+         results from eval: (may be different from history)
+             train_acc : 0.8864
+             train_loss: 0.4908
+             val_acc   : 0.7952
+             val_loss  : 0.9876
+    history[-1]:
+        epoch       : 21.0000
+        lr          : 0.0103
+        running_loss: 0.4122
+        running_acc : 0.8868
+        val_loss    : 0.8878
+        val_acc     : 0.7855
+
+
+Network details:
+    Total number of network parameters: 792,140 
+    SUNet(
+      (sparseModel): Sequential(
+        (0): InputLayer()
+        (1): SubmanifoldConvolution 3->16 C3
+        (2): Sequential(
+          (0): Sequential(
+            (0): BatchNormLeakyReLU(16,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+            (1): SubmanifoldConvolution 16->16 C3
+          )
+          (1): Sequential(
+            (0): BatchNormLeakyReLU(16,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+            (1): SubmanifoldConvolution 16->16 C3
+          )
+          (2): ConcatTable(
+            (0): Identity()
+            (1): Sequential(
+              (0): BatchNormLeakyReLU(16,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+              (1): Convolution 16->32 C2/2
+              (2): Sequential(
+                (0): Sequential(
+                  (0): BatchNormLeakyReLU(32,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+                  (1): SubmanifoldConvolution 32->32 C3
+                )
+                (1): Sequential(
+                  (0): BatchNormLeakyReLU(32,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+                  (1): SubmanifoldConvolution 32->32 C3
+                )
+                (2): ConcatTable(
+                  (0): Identity()
+                  (1): Sequential(
+                    (0): BatchNormLeakyReLU(32,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+                    (1): Convolution 32->48 C2/2
+                    (2): Sequential(
+                      (0): Sequential(
+                        (0): BatchNormLeakyReLU(48,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+                        (1): SubmanifoldConvolution 48->48 C3
+                      )
+                      (1): Sequential(
+                        (0): BatchNormLeakyReLU(48,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+                        (1): SubmanifoldConvolution 48->48 C3
+                      )
+                      (2): ConcatTable(
+                        (0): Identity()
+                        (1): Sequential(
+                          (0): BatchNormLeakyReLU(48,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+                          (1): Convolution 48->64 C2/2
+                          (2): Sequential(
+                            (0): Sequential(
+                              (0): BatchNormLeakyReLU(64,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+                              (1): SubmanifoldConvolution 64->64 C3
+                            )
+                            (1): Sequential(
+                              (0): BatchNormLeakyReLU(64,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+                              (1): SubmanifoldConvolution 64->64 C3
+                            )
+                          )
+                          (3): BatchNormLeakyReLU(64,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+                          (4): Deconvolution 64->48 C2/2
+                        )
+                      )
+                      (3): JoinTable()
+                      (4): Sequential(
+                        (0): BatchNormLeakyReLU(96,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+                        (1): SubmanifoldConvolution 96->48 C3
+                      )
+                      (5): Sequential(
+                        (0): BatchNormLeakyReLU(48,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+                        (1): SubmanifoldConvolution 48->48 C3
+                      )
+                    )
+                    (3): BatchNormLeakyReLU(48,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+                    (4): Deconvolution 48->32 C2/2
+                  )
+                )
+                (3): JoinTable()
+                (4): Sequential(
+                  (0): BatchNormLeakyReLU(64,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+                  (1): SubmanifoldConvolution 64->32 C3
+                )
+                (5): Sequential(
+                  (0): BatchNormLeakyReLU(32,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+                  (1): SubmanifoldConvolution 32->32 C3
+                )
+              )
+              (3): BatchNormLeakyReLU(32,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+              (4): Deconvolution 32->16 C2/2
+            )
+          )
+          (3): JoinTable()
+          (4): Sequential(
+            (0): BatchNormLeakyReLU(32,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+            (1): SubmanifoldConvolution 32->16 C3
+          )
+          (5): Sequential(
+            (0): BatchNormLeakyReLU(16,eps=0.0001,momentum=0.9,affine=True,leakiness=0)
+            (1): SubmanifoldConvolution 16->16 C3
+          )
+        )
+        (3): BatchNormReLU(16,eps=0.0001,momentum=0.9,affine=True)
+        (4): OutputLayer()
+      )
+      (linear): Sequential(
+        (0): Linear(in_features=16, out_features=48, bias=True)
+        (1): Dropout(p=0.5, inplace=False)
+        (2): Linear(in_features=48, out_features=12, bias=True)
+      )
+    )

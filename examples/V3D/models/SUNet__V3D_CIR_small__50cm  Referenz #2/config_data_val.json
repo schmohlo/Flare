@@ -1,0 +1,67 @@
+{
+    "dir": "V3D_Val_CIR__vs050__a0_30_60_90_120_150_180_210_240_270_300_330__32x32__o00_00",
+    "gt_field": "classification",
+    "field_renaming": {
+        "intensity": "intensity"
+    },
+    "field_norming": {
+        "red": {
+            "old_min": 0,
+            "old_max": 255,
+            "new_min": -1,
+            "new_max": 1
+        },
+        "green": {
+            "old_min": 0,
+            "old_max": 255,
+            "new_min": -1,
+            "new_max": 1
+        },
+        "blue": {
+            "old_min": 0,
+            "old_max": 255,
+            "new_min": -1,
+            "new_max": 1
+        },
+        "intensity": {
+            "old_min": 0,
+            "old_max": 255,
+            "new_min": -1,
+            "new_max": 1
+        },
+        "num_returns": {
+            "old_min": 1,
+            "old_max": 3,
+            "new_min": -1,
+            "new_max": 1
+        },
+        "return_num": {
+            "old_min": 1,
+            "old_max": 3,
+            "new_min": -1,
+            "new_max": 1
+        }
+    },
+    "class_mapping": {
+        "Powerline": "Powerline",
+        "Low veg.": "Low veg.",
+        "Imp. surface": "Imp. surface",
+        "Car": "Car",
+        "Fence/Hedge": "Fence/Hedge",
+        "Roof": "Roof",
+        "Facade": "Facade",
+        "Shrub": "Shrub",
+        "Tree": "Tree"
+    },
+    "classes": {
+        "0": "Powerline",
+        "1": "Low veg.",
+        "2": "Imp. surface",
+        "3": "Car",
+        "4": "Fence/Hedge",
+        "5": "Roof",
+        "6": "Facade",
+        "7": "Shrub",
+        "8": "Tree"
+    }
+}

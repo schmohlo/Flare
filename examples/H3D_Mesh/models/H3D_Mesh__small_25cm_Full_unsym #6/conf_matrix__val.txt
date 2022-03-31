@@ -1,0 +1,49 @@
+
+                        |         (0)         (1)         (2)         (3)         (4)         (5)         (6)         (7)         (8)         (9)        (10)        (11)  |   recall 
+    --------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------
+          Low Veg.  (0) |     843,970      16,525           0       5,193       2,121       3,068      21,992       1,093      15,301       1,337           0           0  |    92.68
+      Imp. Surface  (1) |      84,054     674,091       2,643      13,882      26,460      15,914       2,391         480         253      12,984           0           0  |    80.91
+           Vehicle  (2) |         178       8,446      70,177       7,992       5,090       3,646          58         481         419         318           0           0  |    72.49
+       Urban Furn.  (3) |       9,216       5,284      15,248     165,312       8,473      16,675      20,581      17,956           0      10,177         192           0  |    61.43
+              Roof  (4) |       9,096      34,469       1,487       7,762     792,896      18,183       1,391       2,401       4,313         264       5,229           0  |    90.36
+            Facade  (5) |       3,469       3,808         291      18,021      18,938     437,074       3,633       1,426           0      13,542         294           0  |    87.33
+             Shrub  (6) |       6,937         763          37       4,076         659       2,120     124,222      36,988           5       6,318          13           0  |    68.20
+              Tree  (7) |      11,692          17           1       2,471       1,929         203      42,751   1,006,722           8       1,323           0           0  |    94.34
+     Soil / Gravel  (8) |      92,681      19,638           0         592         187          23         649           3      17,571           7           0           0  |    13.38
+          Vertical  (9) |         272       2,787       4,698       3,704         635       7,590         489         844           0      82,557           0           0  |    79.71
+          Chimney  (10) |           0           0           0         515         327          33          16           2           0           0       8,079           0  |    90.05
+          Ignore*  (11) |     343,027      24,503      44,749      62,858     793,809     252,408      54,063   1,488,555       6,061      55,511       1,263           0  |     0.00
+    --------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------
+              precision |       79.50       88.02       74.20       72.03       92.44       86.63       56.94       94.23       46.40       64.08       58.51         nan  |   oval_acc =  84.78
+                     F1 |       85.59       84.32       73.34       66.31       91.39       86.98       62.06       94.28       20.77       71.05       70.93         nan  |   mean(F1) =  73.36
+
+    Ground-Truth Data Statistics:
+        Number of elements in class Low Veg.        (0):    910,600
+        Number of elements in class Imp. Surface    (1):    833,152
+        Number of elements in class Vehicle         (2):     96,805
+        Number of elements in class Urban Furn.     (3):    269,114
+        Number of elements in class Roof            (4):    877,491
+        Number of elements in class Facade          (5):    500,496
+        Number of elements in class Shrub           (6):    182,138
+        Number of elements in class Tree            (7):  1,067,117
+        Number of elements in class Soil / Gravel   (8):    131,351
+        Number of elements in class Vertical        (9):    103,576
+        Number of elements in class Chimney        (10):      8,972
+        Number of elements in class Ignore*        (11):  3,126,807
+        => total: 8107619
+
+    Ground-Truth Data Statistics (as "Prediction Classes"):
+        Number of elements in class Low Veg.        (0):    910,600
+        Number of elements in class Imp. Surface    (1):    833,152
+        Number of elements in class Vehicle         (2):     96,805
+        Number of elements in class Urban Furn.     (3):    269,114
+        Number of elements in class Roof            (4):    877,491
+        Number of elements in class Facade          (5):    500,496
+        Number of elements in class Shrub           (6):    182,138
+        Number of elements in class Tree            (7):  1,067,117
+        Number of elements in class Soil / Gravel   (8):    131,351
+        Number of elements in class Vertical        (9):    103,576
+        Number of elements in class Chimney        (10):      8,972
+        Number of elements in class Ignore         (11):  3,126,807
+        => total: 8107619
+

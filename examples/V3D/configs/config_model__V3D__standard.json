@@ -1,0 +1,30 @@
+
+{
+    "input_features": ["intensity", "return_num", "num_returns"],
+    "classes":
+    {
+        "0": "Powerline", 
+        "1": "Low veg.",
+        "2": "Imp. surface",
+        "3": "Car",
+        "4": "Fence/Hedge",
+        "5": "Roof",
+        "6": "Facade", 
+        "7": "Shrub",
+        "8": "Tree"
+    },
+    "network":
+    {
+        "architecture": "SUNet",
+        "net-params":
+         {
+                "input_size"      : [1.15292150461e+18, 1.15292150461e+18, 1.15292150461e+18],
+                "filter_size"     : 3,
+                "bias"            : true,
+                "residual_blocks" : false,
+                "downsample"      : [2, 2],
+                "reps"            : 2,
+                "nPlanes"         : [32, 64, 96, 128, 160, 192, 224]
+        }
+    }
+}

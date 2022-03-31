@@ -1,0 +1,53 @@
+{
+    "accs": {
+        "p": [
+            0.8098328709602356,
+            0.816276490688324,
+            0.8201164603233337,
+            0.8072777390480042,
+            0.824250340461731,
+            0.7953837513923645,
+            0.8290424346923828,
+            0.815683901309967,
+            0.8085407018661499,
+            0.8289501070976257
+        ],
+        "v": [
+            0.790449321269989,
+            0.8022985458374023,
+            0.8057682514190674,
+            0.7905253767967224,
+            0.809109628200531,
+            0.7802160978317261,
+            0.8182401657104492,
+            0.8051788806915283,
+            0.7916280627250671,
+            0.8136439919471741
+        ]
+    },
+    "model_names": [
+        "SUNet__V3D_CIR_small__50cm  Referenz #1",
+        "SUNet__V3D_CIR_small__50cm  Referenz #2",
+        "SUNet__V3D_CIR_small__50cm  Referenz #3",
+        "SUNet__V3D_CIR_small__50cm  Referenz #4",
+        "SUNet__V3D_CIR_small__50cm  Referenz #5",
+        "SUNet__V3D_CIR_small__50cm  Referenz #6",
+        "SUNet__V3D_CIR_small__50cm  Referenz #7",
+        "SUNet__V3D_CIR_small__50cm  Referenz #8",
+        "SUNet__V3D_CIR_small__50cm  Referenz #9",
+        "SUNet__V3D_CIR_small__50cm  Referenz #10"
+    ],
+    "epochs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "path": "../predictions/20200526_163013__SUNet__V3D_CIR_small__50cm  Referenz/acc_plot"
+}

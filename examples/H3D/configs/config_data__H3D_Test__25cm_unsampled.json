@@ -1,0 +1,72 @@
+
+{
+    "dir": "H3D__Test__vs025__a0",
+    
+    "gt_field"        : "classification",
+    "field_renaming": 
+    {
+        "reflectance"   : "intensity"
+    },
+    
+    "field_norming":
+    {
+        "red":
+        {
+            "old_min": 0,
+            "old_max": 255,
+            "new_min": -1,
+            "new_max": 1
+        },
+        "green":
+        {
+            "old_min": 0,
+            "old_max": 255,
+            "new_min": -1,
+            "new_max": 1
+        },
+        "blue":
+        {
+            "old_min": 0,
+            "old_max": 255,
+            "new_min": -1,
+            "new_max": 1
+        },
+        "reflectance":
+        {
+            "old_min": -32,
+            "old_max": 0,
+            "new_min": -1,
+            "new_max": 1
+        },
+        "num_returns":
+        {
+            "old_min": 1,
+            "old_max": 5,
+            "new_min": -1,
+            "new_max": 1
+        },
+        "return_num":
+        {
+            "old_min": 1,
+            "old_max": 5,
+            "new_min": -1,
+            "new_max": 1
+        }
+    },
+    
+    "class_mapping":
+    {
+        "Low Veg.":      "Low Veg.", 
+        "Imp. Surface":  "Imp. Surface",
+        "Vehicle":       "Vehicle",
+        "Urban Furn.":   "Urban Furn.",
+        "Roof":          "Roof",
+        "Facade":        "Facade",
+        "Shrub":         "Shrub",
+        "Tree":          "Tree",
+        "Soil / Gravel": "Soil / Gravel",
+        "Vertical":      "Vertical",
+        "Chimney":       "Chimney"
+    }
+}
+

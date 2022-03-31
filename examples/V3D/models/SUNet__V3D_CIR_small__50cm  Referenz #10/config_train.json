@@ -1,0 +1,58 @@
+{
+    "max_epochs": 100,
+    "loss_fu": "torch.nn.CrossEntropyLoss",
+    "torch.nn.CrossEntropyLoss":
+    {  
+        "weight_fu": "inv_class_freq"
+    },
+    "optimizer": "torch.optim.SGD",
+    "optim_paras": {
+        "torch.optim.SGD": {
+            "lr": 0.03,
+            "weight_decay": 0.02,
+            "momentum": 0.9,
+            "nesterov": true
+        }
+    },
+    "EarlyStopping": {
+        "monitor": "val_acc",
+        "min_delta": 0.003,
+        "patience": 8
+    },
+    "ReduceLROnPlateau": {
+        "monitor": "val_acc",
+        "factor": 0.7,
+        "patience": 3,
+        "verbose": true,
+        "threshold": 0.003,
+        "threshold_mode": "abs"
+    },
+    "ModelCheckpoint": {
+        "monitor": "val_acc",
+        "save_best_only": true,
+        "period": 1
+    },
+    "datasets": {
+        "transforms": [
+            "reduce_coords"
+        ]
+    },
+    "dataset_train": {
+        "threshold": 200
+    },
+    "dataset_val": {
+        "threshold": 2
+    },
+    "loader_train": {
+        "batch_size": 32,
+        "shuffle": true,
+        "num_workers": 4,
+        "drop_last": true
+    },
+    "loader_val": {
+        "batch_size": 32,
+        "shuffle": true,
+        "num_workers": 4,
+        "drop_last": false
+    }
+}

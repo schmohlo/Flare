@@ -1,0 +1,26 @@
+{
+    "model_name": [
+        "H3D_Mesh__small_25cm_RGB #0",
+        "H3D_Mesh__small_25cm_RGB #1",
+        "H3D_Mesh__small_25cm_RGB #2",
+        "H3D_Mesh__small_25cm_RGB #3",
+        "H3D_Mesh__small_25cm_RGB #4",
+        "H3D_Mesh__small_25cm_RGB #5",
+        "H3D_Mesh__small_25cm_RGB #6",
+        "H3D_Mesh__small_25cm_RGB #7",
+        "H3D_Mesh__small_25cm_RGB #8",
+        "H3D_Mesh__small_25cm_RGB #9"
+    ],
+    "epochs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

@@ -1,0 +1,38 @@
+
+{
+    "model": "flare.nn.classifier.Classifier",
+    
+    "input_features": ["red", "green", "blue", "n_z", "n_y", "n_x"],
+    
+    "classes": {
+        "0": "Low Veg.", 
+        "1": "Imp. Surface",
+        "2": "Vehicle",
+        "3": "Urban Furn.",
+        "4": "Roof",
+        "5": "Facade",
+        "6": "Shrub",
+        "7": "Tree",
+        "8": "Soil / Gravel",
+        "9": "Vertical",
+        "10": "Chimney",
+        "11": "Ignore"
+    },
+    
+    "ignore_label" : 11,
+    
+    "network":
+    {
+        "architecture": "flare.nn.nets.SUNet",
+        "net-params":
+         {
+                "input_size"      : [1.15292150461e+18, 1.15292150461e+18, 1.15292150461e+18],
+                "filter_size"     : 3,
+                "bias"            : true,
+                "residual_blocks" : false,
+                "downsample"      : [2, 2],
+                "reps"            : 2,
+                "nPlanes"         : [16, 32, 48, 64]
+        }
+    }
+}

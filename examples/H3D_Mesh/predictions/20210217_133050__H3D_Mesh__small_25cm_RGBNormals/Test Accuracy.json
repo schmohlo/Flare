@@ -1,0 +1,57 @@
+{
+    "values": [
+        [
+            0.8027627468109131,
+            0.8002278804779053,
+            0.8080466985702515,
+            0.7929947376251221,
+            0.8058022260665894,
+            0.7998048067092896,
+            0.8139513731002808,
+            0.8006533980369568,
+            0.8270521759986877,
+            0.7714438438415527
+        ],
+        [
+            0.8033878207206726,
+            0.8033919930458069,
+            0.8067222237586975,
+            0.7927284836769104,
+            0.81219482421875,
+            0.8046936392784119,
+            0.8159109354019165,
+            0.8030999898910522,
+            0.8305888772010803,
+            0.7780818939208984
+        ]
+    ],
+    "labels": [
+        "p",
+        "v"
+    ],
+    "model_names": [
+        "H3D_Mesh__small_25cm_RGBNormals #0",
+        "H3D_Mesh__small_25cm_RGBNormals #1",
+        "H3D_Mesh__small_25cm_RGBNormals #2",
+        "H3D_Mesh__small_25cm_RGBNormals #3",
+        "H3D_Mesh__small_25cm_RGBNormals #4",
+        "H3D_Mesh__small_25cm_RGBNormals #5",
+        "H3D_Mesh__small_25cm_RGBNormals #6",
+        "H3D_Mesh__small_25cm_RGBNormals #7",
+        "H3D_Mesh__small_25cm_RGBNormals #8",
+        "H3D_Mesh__small_25cm_RGBNormals #9"
+    ],
+    "epochs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "fpath": "./predictions/20210217_133050__H3D_Mesh__small_25cm_RGBNormals/Test Accuracy"
+}

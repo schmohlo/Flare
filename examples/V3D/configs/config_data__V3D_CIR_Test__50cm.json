@@ -1,0 +1,70 @@
+
+{
+    "dir": "V3D_CIR__Test__vs050__a0__32x32__o00_00",
+    
+    "gt_field"        : "classification",
+    "field_renaming": 
+    {
+        "intensity"   : "intensity"
+    },
+    
+    "field_norming":
+    {
+        "red":
+        {
+            "old_min": 0,
+            "old_max": 255,
+            "new_min": -1,
+            "new_max": 1
+        },
+        "green":
+        {
+            "old_min": 0,
+            "old_max": 255,
+            "new_min": -1,
+            "new_max": 1
+        },
+        "blue":
+        {
+            "old_min": 0,
+            "old_max": 255,
+            "new_min": -1,
+            "new_max": 1
+        },
+        "intensity":
+        {
+            "old_min": 0,
+            "old_max": 255,
+            "new_min": -1,
+            "new_max": 1
+        },
+        "num_returns":
+        {
+            "old_min": 1,
+            "old_max": 3,
+            "new_min": -1,
+            "new_max": 1
+        },
+        "return_num":
+        {
+            "old_min": 1,
+            "old_max": 3,
+            "new_min": -1,
+            "new_max": 1
+        }
+    },
+    
+    "class_mapping":
+    {
+        "Powerline"   : "Powerline", 
+        "Low veg."    : "Low veg.",
+        "Imp. surface": "Imp. surface",
+        "Car"         : "Car", 
+        "Fence/Hedge" : "Fence/Hedge", 
+        "Roof"        : "Roof",
+        "Facade"      : "Facade", 
+        "Shrub"       : "Shrub",       
+        "Tree"        : "Tree"
+    }
+}
+

@@ -1,0 +1,23 @@
+{
+    "dir": "H3D_Mesh__Test_rgb__vs025__a0",
+    "gt_field": "classification",
+    "field_renaming": {
+        "medianr": "red",
+        "mediang": "green",
+        "medianb": "blue"
+    },
+    "class_mapping": {
+        "Low Veg.": "Low Veg.",
+        "Imp. Surface": "Imp. Surface",
+        "Vehicle": "Vehicle",
+        "Urban Furn.": "Urban Furn.",
+        "Roof": "Roof",
+        "Facade": "Facade",
+        "Shrub": "Shrub",
+        "Tree": "Tree",
+        "Soil / Gravel": "Soil / Gravel",
+        "Vertical": "Vertical",
+        "Chimney": "Chimney",
+        "Ignore": "Ignore"
+    }
+}
